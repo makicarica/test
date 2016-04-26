@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Value 'stevia git' was typed in element with locator 'id: lst-ib'<br>]]>
+    </line>
+    <line>
+      <![CDATA[The element with locator 'id: sblsbb' was clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[The element with locator 'link text: GitHub - persado/stevia: Stevia is an Open Source QA ...' was clicked<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Stevia-Test-Suite" duration-ms="11849" started-at="2016-04-26T10:26:24Z" finished-at="2016-04-26T10:26:35Z">
+    <groups>
+    </groups>
+    <test name="Test Google Search using Firefox Web Driver" duration-ms="11849" started-at="2016-04-26T10:26:24Z" finished-at="2016-04-26T10:26:35Z">
+      <class name="qa.tests.SearchSteviaViaGoogle">
+        <test-method status="PASS" signature="configureSuiteSettings(org.testng.ITestContext)[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="configureSuiteSettings" is-config="true" duration-ms="5514" started-at="2016-04-26T12:26:18Z" finished-at="2016-04-26T12:26:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75e01201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureSuiteSettings -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2016-04-26T12:26:24Z" finished-at="2016-04-26T12:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="contextInitBeforeTest(org.testng.ITestContext)[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="contextInitBeforeTest" is-config="true" duration-ms="4131" started-at="2016-04-26T12:26:24Z" finished-at="2016-04-26T12:26:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75e01201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextInitBeforeTest -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2016-04-26T12:26:28Z" finished-at="2016-04-26T12:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="contextInitBeforeClass(org.testng.ITestContext)[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="contextInitBeforeClass" is-config="true" duration-ms="1" started-at="2016-04-26T12:26:28Z" finished-at="2016-04-26T12:26:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75e01201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextInitBeforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2016-04-26T12:26:28Z" finished-at="2016-04-26T12:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2016-04-26T12:26:28Z" finished-at="2016-04-26T12:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="contextInitBeforeMethod(org.testng.ITestContext)[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="contextInitBeforeMethod" is-config="true" duration-ms="0" started-at="2016-04-26T12:26:28Z" finished-at="2016-04-26T12:26:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75e01201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextInitBeforeMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-04-26T12:26:28Z" finished-at="2016-04-26T12:26:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qa.tests.SearchSteviaViaGoogle.searchPersadoInGoogle() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="searchPersadoInGoogle()[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="searchPersadoInGoogle" duration-ms="7410" started-at="2016-04-26T12:26:28Z" finished-at="2016-04-26T12:26:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Value 'stevia git' was typed in element with locator 'id: lst-ib'<br>]]>
+            </line>
+            <line>
+              <![CDATA[The element with locator 'id: sblsbb' was clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[The element with locator 'link text: GitHub - persado/stevia: Stevia is an Open Source QA ...' was clicked<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchPersadoInGoogle -->
+        <test-method status="PASS" signature="cleanContextOnMethod(org.testng.ITestContext)[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="cleanContextOnMethod" is-config="true" duration-ms="0" started-at="2016-04-26T12:26:35Z" finished-at="2016-04-26T12:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75e01201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanContextOnMethod -->
+        <test-method status="PASS" signature="cleanContextOnClass(org.testng.ITestContext)[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="cleanContextOnClass" is-config="true" duration-ms="0" started-at="2016-04-26T12:26:35Z" finished-at="2016-04-26T12:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75e01201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanContextOnClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-04-26T12:26:35Z" finished-at="2016-04-26T12:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qa.tests.SearchSteviaViaGoogle.searchPersadoInGoogle() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-04-26T12:26:35Z" finished-at="2016-04-26T12:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="cleanContextOnTest(org.testng.ITestContext)[pri:0, instance:qa.tests.SearchSteviaViaGoogle@66d1af89]" name="cleanContextOnTest" is-config="true" duration-ms="294" started-at="2016-04-26T12:26:35Z" finished-at="2016-04-26T12:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75e01201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanContextOnTest -->
+      </class> <!-- qa.tests.SearchSteviaViaGoogle -->
+    </test> <!-- Test Google Search using Firefox Web Driver -->
+  </suite> <!-- Stevia-Test-Suite -->
+</testng-results>

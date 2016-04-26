@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Stevia-Test-Suite">
+
+    <parameter name="rcHost" value="localhost" />
+    <parameter name="rcPort" value="4444" />
+    <parameter name="targetHostUrl" value="http://www.google.com" />
+    <parameter name="debugging" value="false" />
+    <parameter name="browser" value="firefox" />
+    <parameter name="profile" value="" />
+    <parameter name="driverType" value="webdriver" />
+    <parameter name="actionsLogging" value="true" />
+    <parameter name="tests.takeScreenshot" value="true" />
+
+    <listeners>
+        <listener class-name="com.persado.oss.quality.stevia.selenium.listeners.TestListener"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+    </listeners>
+
+    <test name="Test Google Search using Firefox Web Driver" preserve-order="true">
+        <classes>
+            <class name="qa.tests.SearchSteviaViaGoogle" />
+        </classes>
+    </test>
+
+
+</suite>
